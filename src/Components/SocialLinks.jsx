@@ -23,7 +23,7 @@ const socialLinks = [
     displayName: "Instagram",
     subText: "@ekizr_",
     icon: Instagram,
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/unco_motii/",
     color: "#E4405F",
     gradient: "from-[#833AB4] via-[#E4405F] to-[#FCAF45]"
   },
@@ -48,7 +48,7 @@ const socialLinks = [
   {
     name: "TikTok",
     displayName: "Tiktok",
-    subText: "@eki_zulfar",
+    subText: "@Tommy",
     icon: ({ className, ...props }) => (
      <svg width="24px" height="24px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Tiktok</title>
