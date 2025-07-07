@@ -213,8 +213,7 @@ const Home = () => {
                   data-aos="fade-up"
                   data-aos-delay="1000"
                 >
-                  Menciptakan Website Yang Inovatif, Fungsional, dan
-                  User-Friendly untuk Solusi Digital.
+                  Engineering the digital highways of tomorrow — where connectivity meets creativity, and every click drives impact.
                 </p>
 
                 {/* Tech Stack */}
