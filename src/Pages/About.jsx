@@ -222,11 +222,11 @@ const AboutPage = () => {
                 Hello, I'm
               </span>
               <span
-                className="block mt-2 text-gray-200"
+                className="block mt-2 text-blue-400"
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Kabir Singh
+                Tom Mwambingu
               </span>
             </h2>
 
@@ -235,21 +235,26 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sunt consectetur rem obcaecati est. Corrupti, aut mollitia. Maxime vitae consectetur voluptatem voluptatibus in. Saepe sequi earum quis temporibus modi blanditiis illo delectus iusto doloremque unde.
-            </p>
+            Hi there! I'm a curious mind powered by curiosity, code, and a stubborn refusal to give up. Whether I’m designing beautiful user interfaces or debugging code at 3am (with snacks, of course), I bring creativity, passion, and a touch of humor into everything I do. I believe good software isn't just functional – it should *feel* good to use.
+          Beyond the screen, I’m the kind of person who turns ideas into reality, one keystroke at a time. I’m always learning, always building, and always up for a new challenge – especially the ones that make me say, “I have no idea how to do this… yet.”
+          So if you’re looking for someone who codes like a machine but laughs like a human – you just found him. 😊
+           I’m that developer who brings good vibes to the codebase. I write clean code, catchy UI, and sometimes bad jokes in commit messages. I love turning wild ideas into working projects — and if something breaks, no worries… I debug with a smile and snacks.
+          If you're reading this, just know: you’re one “hello” away from your next favorite dev. Let’s build something awesome!
+
+</p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
               <a
                 href=""
                 className="w-full lg:w-auto"
               >
-                <button
+                {/* <button
                   data-aos="fade-up"
                   data-aos-duration="800"
                   className="w-full lg:w-auto sm:px-6 py-2 sm:py-3 rounded-lg bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-white font-medium transition-all duration-300 hover:scale-105 flex items-center justify-center lg:justify-start gap-2 shadow-lg hover:shadow-xl animate-bounce-slow"
                 >
                   <FileText className="w-4 h-4 sm:w-5 sm:h-5" /> Download CV
-                </button>
+                </button> */}
               </a>
               <a href="#Portofolio" className="w-full lg:w-auto">
                 <button
