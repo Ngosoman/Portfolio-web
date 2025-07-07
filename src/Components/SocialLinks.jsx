@@ -4,16 +4,17 @@ import {
   Github,
   Instagram,
   Youtube,
+  Mail, 
   ExternalLink
 } from "lucide-react";
 
 const socialLinks = [
   {
-    name: "LinkedIn",
+    name: "Gmail",
     displayName: "Let's Connect",
-    subText: "on LinkedIn",
-    icon: Linkedin,
-    url: "https://www.linkedin.com/",
+    subText: "on Gmail",
+    icon: Mail,
+    link: "mailto:tomchome30@gmail.com",
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true
@@ -21,7 +22,7 @@ const socialLinks = [
   {
     name: "Instagram",
     displayName: "Instagram",
-    subText: "@ekizr_",
+    subText: "@Unco",
     icon: Instagram,
     url: "https://www.instagram.com/unco_motii/",
     color: "#E4405F",
@@ -30,18 +31,18 @@ const socialLinks = [
   {
     name: "YouTube",
     displayName: "Youtube",
-    subText: "@eki zulfar",
+    subText: "Tommy",
     icon: Youtube,
-    // url: "https://www.youtube.com/@",
+    url: "https://www.youtube.com/",
     color: "#FF0000",
     gradient: "from-[#FF0000] to-[#CC0000]"
   },
   {
     name: "GitHub",
     displayName: "Github",
-    subText: "@EkiZR",
+    subText: "Ngosoman",
     icon: Github,
-    // url: "",
+    url: "https://github.com/Ngosoman",
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]"
   },
