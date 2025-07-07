@@ -4,7 +4,7 @@ import "./index.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import AnimatedBackground from "./Components/Background";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 import Portofolio from "./Pages/Portofolio";
 import ContactPage from "./Pages/Contact";
 import ProjectDetails from "./Components/ProjectDetail";
