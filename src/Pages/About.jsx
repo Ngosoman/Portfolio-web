@@ -235,7 +235,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-            Hi there! I'm a curious mind powered by curiosity, code, and a stubborn refusal to give up. Whether I’m designing beautiful user interfaces or debugging code at 3am (with snacks, of course), I bring creativity, passion, and a touch of humor into everything I do. I believe good software isn't just functional – it should *feel* good to use.
+            Hi there! I'm a curious mind powered by curiosity itself, code, and a stubborn refusal to give up. Whether I’m designing beautiful user interfaces or debugging code at 3am (with snacks, of course), I bring creativity, passion, and a touch of humor into everything I do. I believe good software isn't just functional – it should *feel* good to use.
           Beyond the screen, I’m the kind of person who turns ideas into reality, one keystroke at a time. I’m always learning, always building, and always up for a new challenge – especially the ones that make me say, “I have no idea how to do this… yet.”
           So if you’re looking for someone who codes like a machine but laughs like a human – you just found him. 😊
            I’m that developer who brings good vibes to the codebase. I write clean code, catchy UI, and sometimes bad jokes in commit messages. I love turning wild ideas into working projects — and if something breaks, no worries… I debug with a smile and snacks.
