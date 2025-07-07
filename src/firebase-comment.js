@@ -1,4 +1,4 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp, getApps } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
@@ -11,8 +11,8 @@ const firebaseConfig = {
   appId: "1:890817433268:web:11e5258f8864a6174c11e1"
 };
 
-// You don't need a custom name unless using multiple apps
-const app = initializeApp(firebaseConfig);
+// Only initialize if not already initialized
+const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 const db = getFirestore(app);
 const storage = getStorage(app);
 
