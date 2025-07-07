@@ -4,21 +4,21 @@ import 'aos/dist/aos.css';
 
 const TestAOS = () => {
     useEffect(() => {
-        // Inisialisasi AOS
+        // Initialize AOS (Animate On Scroll) 
         AOS.init();
 
-        // Function untuk mengecek will-change property
+        // Function to check the 'will-change' CSS property 
         const checkWillChange = () => {
-            // Mengambil semua elemen dengan data-aos
+            // Get all elements with the data-aos attribute
             const aosElements = document.querySelectorAll('[data-aos]');
             
             console.log(`Ditemukan ${aosElements.length} elemen dengan data-aos`);
             
             aosElements.forEach((element, index) => {
-                // Tambahkan border pada elemen
+                /// Add a border to the element  
                 element.style.border = '2px dashed red';
                 
-                // Mengambil computed style
+                // Get the computed style of the element
                 const computedStyle = window.getComputedStyle(element);
                 const willChange = computedStyle.getPropertyValue('will-change');
                 
@@ -31,7 +31,7 @@ const TestAOS = () => {
             });
         };
 
-        // Jalankan pengecekan setelah AOS diinisialisasi
+        // Run the check after AOS has been initialized
         setTimeout(checkWillChange, 100);
     }, []);
 
