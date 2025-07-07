@@ -62,7 +62,7 @@ const socialLinks = [
     </g>
 </svg>
     ),
-    url: "https://tiktok.com/@user12768883398676",
+    url: "https://tiktok.com/@user12768883398667",
     color: "black",
     gradient: "from-[#000000] via-[#25F4EE] to-[#FE2C55]"
   }
