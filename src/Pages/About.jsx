@@ -133,15 +133,15 @@ const AboutPage = () => {
 
     const startDate = new Date("2025-04-04");
     const today = new Date();
-    const experience = diffYears < 1 ? "1/2" : Math.floor(diffYears);
 
-    // const experience =
-    //   today.getFullYear() -
-    //   startDate.getFullYear() -
-    //   (today <
-    //   new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate())
-    //     ? 1
-    //     : 0);
+
+    const experience =
+      today.getFullYear() -
+      startDate.getFullYear() -
+      (today <
+      new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate())
+        ? 1
+        : 0);
 
     return {
       totalProjects: storedProjects.length,
