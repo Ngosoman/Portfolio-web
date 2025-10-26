@@ -14,7 +14,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on Gmail",
     icon: Mail,
-    link: "mailto:tomchome30@gmail.com",
+    link: "https://mailto:tomchome30@gmail.com",
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true
